@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Card Component</title>
+    <style>
+      h3 {
+        color: red;
+      }
+    </style>
+  </head>
+
+  <body>
+    <app-todo-item checked="true">
+      Todo Item
+      <span slot="small-text">todo description</span>
+    </app-todo-item>
+
+    <script defer src="./app-todo-item-component.js"></script>
+  </body>
+</html>
