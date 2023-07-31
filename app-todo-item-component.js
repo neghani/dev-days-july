@@ -72,7 +72,7 @@ customElements.define("app-todo-item", TodoItem);
 
 /*
 View built with model
-/*
+*/
 
 // let todoArray = [
 //   {
